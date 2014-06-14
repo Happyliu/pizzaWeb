@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0px;
+	text-align:center;
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: normal;
+	background-color:#FFFFCC;
+}
+a:link,a:visited {
+	font-size:18px;
+	text-decoration: none;
+}
+#container{width:800px;height:600px;margin:10px auto}
+
+#header{
+	background:url("../images/logo.png") top left no-repeat;
+}
+#search{
+	margin-left:530px;
+}
+#searchbox{
+	text-align:left;
+	width:180px;
+	color:#CCC;
+	font-size:14px;
+	font-style:italic;
+}
+#menu {padding:0px 0px 0 0}
+#menu ul {
+	float:right;
+    list-style:none;
+    margin:0px;
+		 }
+#menu ul li {
+	float:left;
+    display:block;
+	line-height:30px; 
+	margin:0 10px
+			 }
+#menu ul li a:link,#menu ul li a:visited {
+	     font-weight:bold;
+	     color:#666
+		 }
+#banner {
+	width:800px;
+	margin:auto;
+	clear:both;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #EFEFEF;
+		 }
+#pagebody{
+	width:800px;
+	height:600px;
+	margin:0px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #EFEFEF;
+}
+#pagebody p{
+	font-size:18px;
+	color:#666;
+	font-weight:bold;
+}
+#fooder{
+	width:800px;
+	margin:0px;
+	text-align:center;
+background-color:#FFFFCC;
+}
+	

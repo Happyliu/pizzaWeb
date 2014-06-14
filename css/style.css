@@ -1,0 +1,143 @@
+
+body{
+	margin:0px;
+	text-align:center;
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: normal;
+	background-color:#FFFFCC;
+}
+a:link,a:visited {
+	font-size:18px;
+	text-decoration: none;
+}
+#container{width:800px;height:600px;margin:10px auto}
+
+#header{
+	background:url("../images/logo.png") top left no-repeat;
+}
+#search{
+	margin-left:530px;
+}
+#searchbox{
+	text-align:left;
+	width:180px;
+	color:#CCC;
+	font-size:14px;
+	font-style:italic;
+}
+#menu {padding:0px 0px 0 0}
+#menu ul {
+	float:right;
+    list-style:none;
+    margin:0px;
+		 }
+#menu ul li {
+	float:left;
+    display:block;
+	line-height:30px; 
+	margin:0 10px
+			 }
+#menu ul li a:link,#menu ul li a:visited {
+	     font-weight:bold;
+	     color:#666
+		 }
+#banner {
+	width:788px;
+	margin:auto;
+	height:200px;
+	clear:both;
+	border-width: 7px;
+	border-style: solid;
+	border-color: #EFEFEF;
+     }
+#pagebody{
+	width:800px;
+	margin:0px;
+	border-top:1px solid #EFEFEF;
+}
+#leftside {
+	width:300px;
+	margin-right:0;
+    float:left;
+    border-right:3px solid #EFEFEF;
+	border-left:7px solid #EFEFEF;
+	border-bottom:5px solid #EFEFEF;
+	background-color:#FFFFCC;
+		 }
+#leftside p{
+	font-size:18px;
+	color:#F60;
+	font-weight:bold;
+}
+#leftside a{
+	font-size:18px;
+	color:#666;
+	font-weight:bold;
+}
+#leftside1{
+	width:300px;
+	margin-right:0;
+	border-bottom:1px solid #000;
+}
+#leftside1 p{
+	text-align:left;
+	font-size: 12px;
+	color:#F03;
+	font-weight:normal;
+}
+#rightside {
+    width:480px;
+	float:left;
+    margin-left:0px;
+    border-left:3px solid #EFEFEF;
+	border-right:7px solid #EFEFEF;
+	border-bottom:5px solid #EFEFEF;
+	background-color:#FFFFCC;
+		 }
+#rightside p{
+	font-size:18px;
+	font-weight:bold;
+	color:#F03;
+	}
+	
+.container1, .container1 *{margin:0; padding:0;}
+
+.container1{width:480px; height:168px; overflow:hidden;position:relative;}
+
+.slider{position:absolute;}
+.slider li{ list-style:none;display:inline;}
+.slider img{ width:480px; height:168px; display:block;}
+
+.num{ position:absolute; right:5px; bottom:5px;}
+.num li{
+	float: left;
+	color: #FF7300;
+	text-align: center;
+	line-height: 16px;
+	width: 16px;
+	height: 16px;
+	font-family: Arial;
+	font-size: 12px;
+	cursor: pointer;
+	overflow: hidden;
+	margin: 3px 1px;
+	border: 1px solid #FF7300;
+	background-color: #fff;
+}
+.num li.on{
+	color: #fff;
+	line-height: 21px;
+	width: 21px;
+	height: 21px;
+	font-size: 16px;
+	margin: 0 1px;
+	border: 0;
+	background-color: #FF7300;
+	font-weight: bold;
+}
+#fooder{
+	width:800px;
+	margin:0px;
+}
+	
